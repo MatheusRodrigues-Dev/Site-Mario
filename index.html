@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark" id="headerNav">
+        <div class="container-fluid">
+          <a class="navbar-brand d-block d-lg-none" href="#">
+            <img src="./img/logo.png" height="80" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Products</a>
+              </li>
+              <li class="nav-item d-none d-lg-block">
+                <a class="nav-link mx-2" href="#">
+                  <img src="./img/logo.png" height="80" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link mx-2 dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Company
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="principal">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-fluid" src="./img/pngwing.com.png" alt="Imagem do Mário" srcset="" />
+        </div>
+        <div
+          class="col-md-5 text-light d-flex align-items-center m-1 p-3 bg-success p-2 text-dark bg-opacity-50"
+          style="border-radius: 15px">
+          <div class="sega text-light">
+            <p>SUPER MARIO METAVERSO</p>
+            <h1 class="fs-1 fw-bold">Collect and Play with Me <span>Mario</span></h1>
+            <p class="lead fw-normal">
+              And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.
+            </p>
+            <a class="btn btn-outline-warning text-light" href="#">Coming soon</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="space-b"></div>
+
+    <div id="about" class="container border border-warning rounded p-4 text-light text-center">
+      <h1>About</h1>
+      <p class="lead fw-normal">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto veniam nobis molestiae reprehenderit ducimus labore. Aliquid
+        expedita, fugit beatae repellat omnis sint vitae adipisci perspiciatis laboriosam eos, nesciunt sit assumenda?
+      </p>
+    </div>
+
+    <div class="space-b"></div>
+
+    <div id="price" class="container">
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center p-5">
+        <div class="col mb-3">
+          <div class="my-card card text-center border border-white shadow-0 text-white">
+            <div class="card-header bg-danger">Simple</div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title text-light">$5</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="w-100 btn btn-lg btn-warning">Button</button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="my-card card text-center border border-white shadow-0 text-white">
+            <div class="card-header bg-danger">Pro</div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title text-light">$15</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="w-100 btn btn-lg btn-warning">Button</button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="my-card card text-center border border-white shadow-0 text-white">
+            <div class="card-header bg-danger">Enterprice</div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title text-light">$25</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="w-100 btn btn-lg btn-warning">Button</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-b"></div>
+
+    <div id="colaboradores" class="container">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <div class="card p-1 bg-danger" style="border-radius: 15px">
+            <div class="card-body">
+              <div class="text-center">
+                <img
+                  src="./img/pngwing.com (1).png"
+                  alt="Generic placeholder image"
+                  class="img-fluid p-2"
+                  style="height: 180px; border-radius: 10px" />
+              </div>
+              <div class="my-card flex-grow-1 p-2">
+                <h5 class="mb-1 text-light">Danny McLoan</h5>
+                <p class="mb-2 pb-1 text-light" style="color: #2b2a2a">Senior Journalist</p>
+                <div class="d-flex justify-content-start rounded-3 m-2 p-2" style="background-color: #efefef">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cupiditate nam! Dolores magni fugiat quae, similique ut
+                    temporibus libero optio voluptas officia necessitatibus molestiae cum quaerat unde quam illum dicta.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card p-1 bg-danger" style="border-radius: 15px">
+            <div class="card-body">
+              <div class="text-center">
+                <img
+                  src="./img/pngwing.com (4).png"
+                  alt="Generic placeholder image"
+                  class="img-fluid p-2"
+                  style="height: 180px; border-radius: 10px" />
+              </div>
+              <div class="my-card flex-grow-1 p-2">
+                <h5 class="mb-1 text-light">Danny McLoan</h5>
+                <p class="mb-2 pb-1 text-light" style="color: #2b2a2a">Senior Journalist</p>
+                <div class="d-flex justify-content-start rounded-3 m-2 p-2" style="background-color: #efefef">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cupiditate nam! Dolores magni fugiat quae, similique ut
+                    temporibus libero optio voluptas officia necessitatibus molestiae cum quaerat unde quam illum dicta.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card p-1 bg-danger" style="border-radius: 15px">
+            <div class="card-body">
+              <div class="text-center">
+                <img
+                  src="./img/pngwing.com (5).png"
+                  alt="Generic placeholder image"
+                  class="img-fluid p-2"
+                  style="height: 180px; border-radius: 10px" />
+              </div>
+              <div class="my-card flex-grow-1 p-2">
+                <h5 class="mb-1 text-light">Danny McLoan</h5>
+                <p class="mb-2 pb-1 text-light" style="color: #2b2a2a">Senior Journalist</p>
+                <div class="d-flex justify-content-start rounded-3 m-2 p-2" style="background-color: #efefef">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cupiditate nam! Dolores magni fugiat quae, similique ut
+                    temporibus libero optio voluptas officia necessitatibus molestiae cum quaerat unde quam illum dicta.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card p-1 bg-danger" style="border-radius: 15px">
+            <div class="card-body">
+              <div class="text-center">
+                <img
+                  src="./img/pngwing.com (3).png"
+                  alt="Generic placeholder image"
+                  class="img-fluid p-2"
+                  style="height: 180px; border-radius: 10px" />
+              </div>
+              <div class="my-card flex-grow-1 p-2">
+                <h5 class="mb-1 text-light">Danny McLoan</h5>
+                <p class="mb-2 pb-1 text-light" style="color: #2b2a2a">Senior Journalist</p>
+                <div class="d-flex justify-content-start rounded-3 m-2 p-2" style="background-color: #efefef">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cupiditate nam! Dolores magni fugiat quae, similique ut
+                    temporibus libero optio voluptas officia necessitatibus molestiae cum quaerat unde quam illum dicta.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
